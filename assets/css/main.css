@@ -10188,10 +10188,7 @@ div[class^='bg-dark'] div[class^='bg-white'] .stroke-text, div[class^='bg-dark']
 
 .child-overlay {
   position: absolute;
-<<<<<<< HEAD
   width: 80%;
-=======
->>>>>>> 80a832d... Merge pull request #3 from soap019/dev
   top: -150px;
   left: -60px;
 }
