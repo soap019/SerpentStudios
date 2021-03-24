@@ -418,7 +418,7 @@ div[class^='bg-dark'] hr, div[class*=' bg-dark'] hr, .bg-black hr {
 }
 
 .bg-image.bg-image-gradient-dark-reverse:before {
-  background-image: linear-gradient(to top, rgba(20, 22, 24, 0.2), #0b140b);
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 1.0), #0b140b);
 }
 
 .form-row {
