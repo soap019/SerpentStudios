@@ -417,8 +417,12 @@ div[class^='bg-dark'] hr, div[class*=' bg-dark'] hr, .bg-black hr {
   background-image: linear-gradient(to top, #0b140b, rgba(20, 22, 24, 0.2));
 }
 
+.bg-image.bg-image-gradient-dark-reverse-full:before {
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 1.0), #0b140b);
+}
+
 .bg-image.bg-image-gradient-dark-reverse:before {
-  background-image: linear-gradient(to top, rgba(20, 22, 24, 0.2), #0b140b);
+  background-image: linear-gradient(to top, rgba(255, 255, 255, 0.2), #0b140b);
 }
 
 .form-row {
@@ -8997,19 +9001,19 @@ body.loaded:after {
 }
 
 .bg-dark-05 {
-  background: rgba(11, 20, 11, 0.5);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .bg-dark-04 {
-  background: rgba(11, 20, 11, 0.4);
+  background: rgba(0, 0, 0, 0.4);
 }
 
 .bg-dark-03 {
-  background: rgba(11, 20, 11, 0.3);
+  background: rgba(0, 0, 0, 0.3);
 }
 
 .bg-dark-02 {
-  background: rgba(11, 20, 11, 0.2);
+  background: rgba(0, 0, 0, 0.2);
 }
 
 .bg-dark-01 {
@@ -10188,10 +10192,7 @@ div[class^='bg-dark'] div[class^='bg-white'] .stroke-text, div[class^='bg-dark']
 
 .child-overlay {
   position: absolute;
-<<<<<<< HEAD
   width: 80%;
-=======
->>>>>>> 80a832d... Merge pull request #3 from soap019/dev
   top: -150px;
   left: -60px;
 }
